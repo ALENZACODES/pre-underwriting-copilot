@@ -2,7 +2,7 @@
 
 Checks a sample loan file before it goes to a lender: works out LTV, GDS and TDS at the qualifying rate, flags missing items, scores readiness and drafts a broker memo.
 
-Live: https://jk-cu-ms-ds.github.io/pre-underwriting-copilot/
+Live: https://alenzacodes.github.io/pre-underwriting-copilot/
 
 ## How to use
 
