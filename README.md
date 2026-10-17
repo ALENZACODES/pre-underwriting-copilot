@@ -28,6 +28,19 @@ To run locally, open `index.html` or serve the folder with `python3 -m http.serv
 
 20 checks on the payment math, the file parser, each flag and the readiness score. They run on every push.
 
+## Files
+
+    index.html, style.css   the page
+    app.js                  loads a file, shows the review and the memo
+    engine.js               parser, ratio maths, document checks and readiness score
+    samples.js              the clean and messy example files (fictional)
+    tests/test.js           unit tests
+
+## Limits
+
+- Lender overlays differ. A file that passes here can still be declined, and some lenders accept files this tool flags.
+- Document freshness rules follow common practice, not a single lender's policy.
+
 ## Sources
 
 - Interest Act: https://laws-lois.justice.gc.ca/eng/acts/i-15/page-1.html
