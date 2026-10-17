@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Loan File Pre-Underwriting Copilot | John Khan</title><meta name="author" content="John Khan"><meta name="description" content="Paste a fictional loan file and get document checks, stress-tested ratios, flags and a broker memo, all in the browser.">
+<title>Loan File Pre-Underwriting Check | John Khan</title><meta name="author" content="John Khan"><meta name="description" content="Paste a fictional loan file and get document checks, stress-tested ratios, flags and a broker memo, all in the browser.">
 <link rel="stylesheet" href="style.css"><style>.score{font-size:44px;font-weight:800}.fl{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--line)}.docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px}.doc{padding:8px 10px;border-radius:9px;border:1px solid var(--line);background:var(--panel2);font-size:13px}.grid{grid-template-columns:420px 1fr}@media(max-width:900px){.grid{grid-template-columns:1fr}}</style></head><body>
-<header class="top"><div class="brand"><div class="logo" aria-hidden="true">PU</div><div><h1>Loan File Pre-Underwriting Copilot</h1><small>Catch file problems before a lender does</small></div></div><span class="tag">Runs in your browser. Nothing is uploaded.</span></header>
+<header class="top"><div class="brand"><div class="logo" aria-hidden="true">PU</div><div><h1>Loan File Pre-Underwriting Check</h1><small>Catch file problems before a lender does</small></div></div><span class="tag">Runs in your browser. Nothing is uploaded.</span></header>
 <main><div class="grid"><section class="card" aria-label="Loan file"><h2>Loan file [EXAMPLE]</h2>
 <div class="row noprint" style="margin-bottom:10px"><button class="btn ghost" data-s="clean">Load clean file</button><button class="btn ghost" data-s="messy">Load messy file</button></div>
 <label for="file">Upload a .txt file</label><input type="file" id="file" accept=".txt,text/plain">
@@ -11,8 +11,8 @@
 <section class="stack" aria-live="polite"><div class="kpis" id="kpis"></div><div class="card"><h2>Document checklist</h2><div class="docs" id="docs"></div></div>
 <div class="card"><h2>Flags</h2><div id="flags"></div></div><div class="card"><h2>Broker memo</h2><div class="memo" id="memo"></div></div></section></div>
 <div class="card" style="margin-top:18px"><h2>Rules used</h2><ul class="src">
-<li>Qualifying rate: greater of 5.25% or contract rate plus 2%: <a href="https://www.osfi-bsif.gc.ca/en/news/osfi-announces-minimum-qualifying-rate-uninsured-mortgages-remain-unchanged">OSFI</a></li>
-<li>GDS up to 39% and TDS up to 44%; half of condo fees count: <a href="https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/cmhc-mortgage-loan-insurance-cost">CMHC</a></li>
+<li>Qualifying rate: greater of 5.25% or contract rate plus 2%: <a href="https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages">OSFI</a></li>
+<li>GDS up to 39% and TDS up to 44%; half of condo fees count: <a href="https://www.cmhc-schl.gc.ca/consumers/home-buying/calculators/debt-service-calculator">CMHC</a></li>
 <li>Minimum down payment: 5% of the first $500,000, 10% of the portion from $500,000 to $1.5M, 20% at $1.5M and above: <a href="https://www.canada.ca/en/financial-consumer-agency/services/mortgages/down-payment.html">FCAC</a></li>
 <li>Semi-annual compounding on fixed-rate mortgages: <a href="https://laws-lois.justice.gc.ca/eng/acts/i-15/page-1.html">Interest Act</a></li>
 <li>Document freshness (30-day pay stub, 90-day down payment history) reflects common lender practice and varies by lender.</li></ul></div></main>

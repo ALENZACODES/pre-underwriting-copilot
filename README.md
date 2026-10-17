@@ -12,7 +12,7 @@ Files get bounced by lenders for avoidable reasons: a stale pay stub, a down pay
 
 Load the clean or the messy sample file, or paste your own in `Field: value` lines followed by a `Documents:` list (`type | date | name`). Use fictional data only. Everything runs in the browser and nothing is uploaded.
 
-To run locally, open `index.html` or serve the folder with `python3 -m http.server`.
+To run locally, open `index.html` or serve the folder with `python3 -m http.server 8000` and open http://localhost:8000/.
 
 ## Rules it checks
 
@@ -32,9 +32,15 @@ To run locally, open `index.html` or serve the folder with `python3 -m http.serv
 
 - Interest Act: https://laws-lois.justice.gc.ca/eng/acts/i-15/page-1.html
 - FCAC, down payments: https://www.canada.ca/en/financial-consumer-agency/services/mortgages/down-payment.html
-- CMHC insurance cost and ratios: https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/cmhc-mortgage-loan-insurance-cost
-- OSFI qualifying rate: https://www.osfi-bsif.gc.ca/en/news/osfi-announces-minimum-qualifying-rate-uninsured-mortgages-remain-unchanged
+- CMHC insurance cost and ratios: https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/premium-information-for-homeowner-and-small-rental-loans
+- OSFI qualifying rate: https://www.osfi-bsif.gc.ca/en/supervision/financial-institutions/banks/minimum-qualifying-rate-uninsured-mortgages
 
----
+On a phone:
 
-Educational only, not financial advice. John Khan.
+<img src="docs/screenshot-mobile.png" alt="Mobile layout" width="300">
+
+Educational only, not financial advice.
+
+## Licence
+
+MIT. Copyright 2026 John Khan.
