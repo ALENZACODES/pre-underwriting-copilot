@@ -1,5 +1,5 @@
-window.SAMPLES={
-clean:`# [EXAMPLE] fictional loan file
+window.SAMPLES = {
+  clean: `# [EXAMPLE] fictional loan file
 File ID: EX-1042
 Borrower: Avery Example
 Province: Ontario
@@ -23,7 +23,7 @@ Documents:
 - NOA | 2026-05-10 | Avery Example
 - Down payment statement | 2026-09-25 | Avery Example
 - Purchase agreement | 2026-09-28 | Avery Example`,
-messy:`# [EXAMPLE] fictional loan file with problems
+  messy: `# [EXAMPLE] fictional loan file with problems
 File ID: EX-2077
 Borrower: Jordan Sample
 Province: Alberta
@@ -44,4 +44,5 @@ Documents:
 - ID | 2026-08-01 | Jordan Sample
 - T1 General | 2026-04-30 | Jordan Sample
 - Down payment statement | 2026-07-15 | Jordan Samples
-- Purchase agreement | 2026-09-20 | Jordan Sample`};
+- Purchase agreement | 2026-09-20 | Jordan Sample`,
+};
