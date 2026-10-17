@@ -1,3 +1,5 @@
+![Loan File Pre-Underwriting Check banner](docs/banner.png)
+
 # Loan File Pre-Underwriting Check
 
 [![tests](https://github.com/ALENZACODES/pre-underwriting-copilot/actions/workflows/tests.yml/badge.svg)](https://github.com/ALENZACODES/pre-underwriting-copilot/actions/workflows/tests.yml)

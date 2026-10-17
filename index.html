@@ -4,11 +4,28 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Loan File Pre-Underwriting Check | John Khan</title>
+    <meta property="og:title" content="Loan File Pre-Underwriting Check" />
+    <meta
+      property="og:description"
+      content="LTV, GDS and TDS at the qualifying rate, missing documents and a readiness score."
+    />
+    <meta
+      property="og:image"
+      content="https://alenzacodes.github.io/pre-underwriting-copilot/docs/social-preview.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="author" content="John Khan" />
     <meta
       name="description"
       content="Paste a fictional loan file and get document checks, stress-tested ratios, flags and a broker memo, all in the browser."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Pinyon+Script&display=swap"
+    />
+    <link rel="stylesheet" href="theme/waves.css" />
     <link rel="stylesheet" href="style.css" />
     <style>
       .score {
@@ -44,8 +61,8 @@
       }
     </style>
   </head>
-  <body>
-    <header class="top">
+  <body class="w-headings">
+    <header class="top w-wave">
       <div class="brand">
         <div class="logo" aria-hidden="true">PU</div>
         <div>
@@ -117,7 +134,7 @@
         </ul>
       </div>
     </main>
-    <footer class="foot">Educational only, not financial advice. John Khan.</footer>
+    <footer class="foot">Educational only, not financial advice. <span class="w-script">John Khan</span></footer>
     <script src="samples.js"></script>
     <script src="engine.js"></script>
     <script src="app.js"></script>
